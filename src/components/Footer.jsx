@@ -65,9 +65,9 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-center h-10 rounded-lg     ">
-                <input className='text-black     font-sans    ' type="email" placeholder='Enter Your Email' />
-                <button className=' w-80  bg-green-800 hover:bg-green-500 text-white font-bold px-2    '>Get Started</button>
+            <div className="flex justify-center h-10 rounded-lg">
+                <input className='text-black font-sans' type="email" placeholder='Enter Your Email' />
+                <button className=' bg-green-800 hover:bg-green-500 text-white font-bold px-2    '>Get Started</button>
 
             </div>
 
