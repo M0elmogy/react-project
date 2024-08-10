@@ -9,7 +9,7 @@ import { FaDribbbleSquare } from "react-icons/fa";
 function Footer() {
 
     return (
-        <div className='max-w-[1240px] mx-auto py-16 px-4  grid lg:grid-col-3 gap-8 text-gray-300 ' >
+        <div className='max-w-[1240px] mx-auto py-16 px-4 grid md:grid-cols-2  lg:grid-cols-4   gap-4  text-gray-300 ' >
             <div>
                 <h1 className='w-full text-3xl text-green-500 font-sans'>
                     DaTa-Finance
@@ -24,7 +24,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='lg:col-span-2 flex justify-between text-center' >
+            <div className=' lg:col-span-2 flex justify-between text-center' >
                 <div>
                     <h5 className='text-green-500 text-xl font-sans'>   Solutions</h5>
                     <ul className=' '>
@@ -65,9 +65,9 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-center">
-                <input className='text-black    font-sans h-10 w-96 px-4 ' type="email" placeholder='Enter Your Email' />
-                <button className='hover:bg-green-800 bg-green-500 text-white font-bold py-2 px-4 rounded-mdmx-auto '>Get Started</button>
+            <div className="flex justify-center h-12">
+                <input className='text-black    font-sans    ' type="email" placeholder='Enter Your Email' />
+                <button className=' bg-green-800 hover:bg-green-500 text-white font-bold px-2    '>Get Started</button>
 
             </div>
 

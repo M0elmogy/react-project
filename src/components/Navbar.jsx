@@ -8,7 +8,7 @@ function Navbar() {
         setNav(!nav)
     }
     return (
-        <div className='flex  items-center justify-around h-20 max-w-9000x mx-auto px-20 text-white'>
+        <div className='flex  items-center justify-around h-20 max-w-9000x mx-auto px-4 text-white'>
             <h1 className='w-full text-3xl text-green-500 font-sans'>
                 DaTa-Finance
             </h1>
@@ -23,7 +23,7 @@ function Navbar() {
                 {!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
 
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-80 h-full border-r border-r-gray-900 bg-zinc-900 ' : 'hidden'}>
+            <div className={nav ? 'fixed left-0 top-0 w-80   h-full border-r border-r-gray-900 bg-zinc-900 ' : 'hidden'}>
                 <h1 className='w-full text-3xl text-green-500 font-bold m-4'>
                     DaTa-Finance
                 </h1>
